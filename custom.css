@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+.first, .second {
+    text-align: center;
+    background: linear-gradient(to left, rgb(3, 234, 255), rgb(24, 24, 190), rgb(179, 0, 255),
+     rgb(3, 234, 255), rgb(24, 24, 190), rgb(179, 0, 255)); 
+    background-size: 300% 100%; 
+    color: white;
+    padding: 1px;
+    animation: colorFlow 9s linear infinite;
+}
+#dynamic button { 
+    font-size: 16px;
+    margin-top: 10px;
+    color: blue;
+    background-color: blueviolet;
+}
+
+
+@keyframes colorFlow {
+    0% {
+        background-position: 0% 0%; 
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+
+button {
+    padding: 12px;
+    background-color: rgb(6, 201, 255);
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+
+button:hover{
+    background-color: aquamarine;
+    color: rgb(3, 3, 3);
+    
+}
+
+#background {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    transition: background-color 0.5s; /* Smooth transition */
+}
+
